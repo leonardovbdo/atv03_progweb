@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Números Divisíveis por 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="form">
+  <h1>Calculadora</h1>
+  <form>
+    <input required type="text" id="numero1" name="numero1">
+
+    <select name="operacao" id="operacao">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+
+    <input required type="text" id="numero2" name="numero2">
+
+    <input type="button" value="=" onclick="calcular()">
+
+    <input disabled type="text" id="result" name="result">
+
+  </form>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

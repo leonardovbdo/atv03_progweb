@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, select:focus {
+    outline: none;
+} 
+
+input[type="text"] {
+    width: 100px; /* Largura curta para os inputs */
+    height: 30px; /* Altura comum para todos os elementos */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="button"] {
+    padding: 6.5px;
+    width: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="button"]:hover {
+    background-color: white;
+}
+
+select {
+    font-weight: bold;
+    width: 20pxpx; /* Largura curta para o select */
+    height: 30px; /* Altura comum para todos os elementos */
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 3px;
+}
+
+select:hover {
+    background-color: #EFEFEF;
+}
+
+
+.form {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}

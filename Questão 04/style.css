@@ -1,0 +1,10 @@
+input[type="text"] {
+    margin: 5px;
+    width: 60px;
+    padding: 3px;
+}
+
+input[type="button"] {
+    font-size: 15px;
+    padding: 3px;
+}
